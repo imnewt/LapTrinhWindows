@@ -141,9 +141,9 @@ namespace Lab01_04
                             foreach (var nxb in dsTam)
                             {
                                 var temp = 0;
-                                foreach (var user in nxb)
+                                foreach (var sl in nxb)
                                 {
-                                    temp += user.SoLuong;
+                                    temp += sl.SoLuong;
                                 }
                                 stkNhieuNhat.Add(new NXB(){ tenNXB = nxb.Key, soLuongSach = temp });
                                 
@@ -151,7 +151,7 @@ namespace Lab01_04
                             stkNhieuNhat.Sort();
                             stkNhieuNhat.Reverse();
                             Console.WriteLine("\nNXB CO NHIEU TONG SO SACH THAM KHAO NHAT: " + stkNhieuNhat[0].tenNXB);
-                            Console.WriteLine("TONG SO LUONG SACH THAM KHAO: " + stkNhieuNhat[0].soLuongSach);
+                            Console.WriteLine("TONG SO LUONG SACH: " + stkNhieuNhat[0].soLuongSach);
                             break;
                         }
                     case 9:
