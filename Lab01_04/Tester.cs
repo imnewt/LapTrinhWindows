@@ -151,7 +151,7 @@ namespace Lab01_04
                             stkNhieuNhat.Sort();
                             stkNhieuNhat.Reverse();
                             Console.WriteLine("\nNXB CO NHIEU TONG SO SACH THAM KHAO NHAT: " + stkNhieuNhat[0].tenNXB);
-                            Console.WriteLine("TONG SO LUONG SACH: " + stkNhieuNhat[0].soLuongSach);
+                            Console.WriteLine("TONG SO LUONG SACH CUA NXB: " + stkNhieuNhat[0].soLuongSach);
                             break;
                         }
                     case 9:
