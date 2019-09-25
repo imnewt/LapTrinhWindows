@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab01_02", "Lab01_02\Lab01_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab01_04", "Lab01_04\Lab01_04.csproj", "{EDEB3588-D6B7-4EBB-BE29-8F1000B5F50B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab02-01", "C:\Users\ASUS\Downloads\MaiTanTruc_LTW\Lab02\Lab02-01\Lab02-01.csproj", "{96BAFFF3-D95E-498A-A805-0ACA554605EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{EDEB3588-D6B7-4EBB-BE29-8F1000B5F50B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDEB3588-D6B7-4EBB-BE29-8F1000B5F50B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDEB3588-D6B7-4EBB-BE29-8F1000B5F50B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96BAFFF3-D95E-498A-A805-0ACA554605EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96BAFFF3-D95E-498A-A805-0ACA554605EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96BAFFF3-D95E-498A-A805-0ACA554605EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96BAFFF3-D95E-498A-A805-0ACA554605EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
